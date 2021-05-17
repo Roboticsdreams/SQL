@@ -18,7 +18,7 @@ raiserror('Now at the create procedure section ....',0,1)
 
 GO
 
-CREATE or ALTER PROCEDURE alternativequeries.proc_01drawtriangle AS
+CREATE or ALTER PROCEDURE alternativequeries.proc_01drawtriangle1 AS
 SELECT 
 	REPLICATE('* ', ones.n + 10*tens.n) as STARS
 FROM 
@@ -30,7 +30,7 @@ ORDER BY
 	ones.n + 10*tens.n DESC;
 GO
 
-CREATE or ALTER PROCEDURE AlternativeQueriesTestClass.test_01drawtriangle
+CREATE or ALTER PROCEDURE AlternativeQueriesTestClass.test_01drawtriangle1
 AS
 BEGIN
     IF OBJECT_ID('actual') IS NOT NULL DROP TABLE actual;
@@ -40,7 +40,7 @@ BEGIN
 	   STARS           varchar(40),
     );
 
-    INSERT INTO actual (STARS) exec alternativequeries.proc_01drawtriangle ;
+    INSERT INTO actual (STARS) exec alternativequeries.proc_01drawtriangle1 ;
 
     CREATE TABLE expected (
 	   STARS           varchar(40),
@@ -73,5 +73,5 @@ END;
 
 GO
 
---exec tSQLt.Run 'AlternativeQueriesTestClass.[test_01drawtriangle]';
+--exec tSQLt.Run 'AlternativeQueriesTestClass.[test_01drawtriangle1]';
 

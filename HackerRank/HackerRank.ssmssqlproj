@@ -1,9 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SqlWorkbenchSqlProject">
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HackerRank">
   <Items>
-    <LogicalFolder Name="Connections" Type="2" />
-    <LogicalFolder Name="Queries" Type="0" />
-    <LogicalFolder Name="Miscellaneous" Type="3" />
-
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="ATH57293\SQLEXPRESS:ATHENAHEALTH\prathinavel">
+          <Created>2021-05-17T16:26:24.4077314+05:30</Created>
+          <Type>SQL</Type>
+          <Server>ATH57293\SQLEXPRESS</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01.HackerRankInstall.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01.HackerRankInstall.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02.SetClrEnabled.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02.SetClrEnabled.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03.tSQLt.class.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03.tSQLt.class.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04.Basicselect.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04.Basicselect.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04.BS01-Query-I.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04.BS01-Query-I.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04.BS02-Query-II.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04.BS02-Query-II.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04.BS03-SelectAll.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04.BS03-SelectAll.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04.BS04-SelectByID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04.BS04-SelectByID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09.AlternativeQueries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09.AlternativeQueries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09.AQ01-DrawTheTriangle1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09.AQ01-DrawTheTriangle1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09.AQ02-DrawTheTriangle2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09.AQ02-DrawTheTriangle2.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
