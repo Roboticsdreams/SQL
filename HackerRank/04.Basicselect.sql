@@ -2,8 +2,6 @@ use hackerrank;
 
 GO 
 
-GO
-
 exec tSQLt.DropClass 'BasicSelectTestClass'
 
 GO 
@@ -127,6 +125,3 @@ COMMIT;
 
 GO
 
-SELECT * FROM basicselect.CITY WHERE POPULATION > 100000 and COUNTRYCODE = 'USA';
-
-GO
