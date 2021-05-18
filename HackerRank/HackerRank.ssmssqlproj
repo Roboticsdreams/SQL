@@ -85,6 +85,12 @@
           <AssociatedConnUserName />
           <FullPath>09.AQ02-DrawTheTriangle2.sql</FullPath>
         </FileNode>
+        <FileNode Name="09.AQ03-PrintPrimeNos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09.AQ03-PrintPrimeNos.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
