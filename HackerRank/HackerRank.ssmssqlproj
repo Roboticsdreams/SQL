@@ -67,6 +67,42 @@
           <AssociatedConnUserName />
           <FullPath>04.BS04-SelectByID.sql</FullPath>
         </FileNode>
+        <FileNode Name="08.AdvancedJoin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08.AdvancedJoin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08.AJ01-SQLProjectPlanning.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08.AJ01-SQLProjectPlanning.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08.AJ02-Placements.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08.AJ02-Placements.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08.AJ03-SymmetricPairs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08.AJ03-SymmetricPairs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08.AJ04-Interviews.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08.AJ04-Interviews.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08.AJ05-15DaysofLearningSQL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08.AJ05-15DaysofLearningSQL.sql</FullPath>
+        </FileNode>
         <FileNode Name="09.AlternativeQueries.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
