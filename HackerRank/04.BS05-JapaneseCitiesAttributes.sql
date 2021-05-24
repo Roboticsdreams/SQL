@@ -1,11 +1,11 @@
 /*
-Select By ID
+Japanese Cities' Attributes
 
-Query all columns for a city in CITY with the ID 1661.
+Query all attributes of every Japanese city in the CITY2 table. The COUNTRYCODE for Japan is JPN.
 
 Input Format
 
-The CITY table is described as follows:
+The CITY2 table is described as follows:
 
 +-------------+--------------+
 |   FILEDS    |     TYPE     |
@@ -16,7 +16,6 @@ The CITY table is described as follows:
 | DISTRICT    | VARCHAR2(20) |
 | POPULATION  | NUMBER       |
 +-------------+--------------+
-
 */
 
 use hackerrank;
@@ -27,22 +26,20 @@ raiserror('Now at the create procedure section ....',0,1)
 
 GO
 
-CREATE or ALTER PROCEDURE basicselect.proc_04selectbyid AS
+CREATE or ALTER PROCEDURE basicselect.proc_05jpncity AS
 select 
-	basicselect.CITY.id as ID, 
-	basicselect.CITY.name as NAME,
-	basicselect.CITY.countrycode as COUNTRYCODE,
-	basicselect.CITY.district as DISTRICT,
-	basicselect.CITY.population as POPULATION
+	ID, 
+	NAME, 
+	COUNTRYCODE, 
+	DISTRICT, 
+	POPULATION 
 from 
-	basicselect.CITY
-where
-	basicselect.CITY.id = 1661
-order by basicselect.CITY.id;
-
+	basicselect.CITY2 
+where 
+	COUNTRYCODE='JPN';
 GO
 
-CREATE or ALTER PROCEDURE BasicSelectTestClass.test_04selectbyid
+CREATE or ALTER PROCEDURE BasicSelectTestClass.test_05jpncity
 AS
 BEGIN
     IF OBJECT_ID('actual') IS NOT NULL DROP TABLE actual;
@@ -56,7 +53,7 @@ BEGIN
 	   POPULATION     int,
     );
 
-    INSERT INTO actual (ID, NAME, COUNTRYCODE, DISTRICT, POPULATION) exec basicselect.proc_04selectbyid;
+    INSERT INTO actual (ID, NAME, COUNTRYCODE, DISTRICT, POPULATION) exec basicselect.proc_05jpncity
 
     CREATE TABLE expected (
 	   ID         	  int        		NOT NULL,
@@ -66,7 +63,11 @@ BEGIN
 	   POPULATION     int,
     );
 
+	INSERT INTO expected (ID, NAME, COUNTRYCODE, DISTRICT, POPULATION) select 1613,'Neyagawa','JPN','Osaka',257315
+	INSERT INTO expected (ID, NAME, COUNTRYCODE, DISTRICT, POPULATION) select 1630,'Ageo','JPN','Saitama',209442
 	INSERT INTO expected (ID, NAME, COUNTRYCODE, DISTRICT, POPULATION) select 1661,'Sayama','JPN','Saitama',162472
+	INSERT INTO expected (ID, NAME, COUNTRYCODE, DISTRICT, POPULATION) select 1681,'Omuta','JPN','Fukuoka',142889
+	INSERT INTO expected (ID, NAME, COUNTRYCODE, DISTRICT, POPULATION) select 1739,'Tokuyama','JPN','Yamaguchi',107078
 
     EXEC tSQLt.AssertEqualsTable 'expected', 'actual';
 
@@ -74,4 +75,4 @@ END;
 
 GO
 
---exec tSQLt.Run 'BasicSelectTestClass.[test_04selectbyid]';
+--exec tSQLt.Run 'BasicSelectTestClass.[test_05jpncity]';

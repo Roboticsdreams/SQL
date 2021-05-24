@@ -7,12 +7,15 @@ Input Format
 
 The CITY table is described as follows:
 
-FILEDS			TYPE
-ID				NUMBER
-NAME			VARCHAR2(17)
-COUNRTYCODE		VARCHAR2(3)
-DISTRICT		VARCHAR2(20)
-POPULATION		NUMBER
++-------------+--------------+
+|   FILEDS    |     TYPE     |
++-------------+--------------+
+| ID          | NUMBER       |
+| NAME        | VARCHAR2(17) |
+| COUNRTYCODE | VARCHAR2(3)  |
+| DISTRICT    | VARCHAR2(20) |
+| POPULATION  | NUMBER       |
++-------------+--------------+
 
 */
 
