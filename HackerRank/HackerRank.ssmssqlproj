@@ -37,11 +37,11 @@
           <AssociatedConnUserName />
           <FullPath>03.tSQLt.class.sql</FullPath>
         </FileNode>
-        <FileNode Name="04.BS00-Basicselect.sql">
+        <FileNode Name="04.BS00-BasicSelect.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>04.BS00-Basicselect.sql</FullPath>
+          <FullPath>04.BS00-BasicSelect.sql</FullPath>
         </FileNode>
         <FileNode Name="04.BS01-Query-I.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
@@ -163,6 +163,42 @@
           <AssociatedConnUserName />
           <FullPath>04.BS20-EmployeeSalaries.sql</FullPath>
         </FileNode>
+        <FileNode Name="05.AS00-AdvancedSelect.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05.AS00-AdvancedSelect.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05.AS01-TypeofTriangle.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05.AS01-TypeofTriangle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05.AS02-ThePADS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05.AS02-ThePADS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05.AS03-Occupations.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05.AS03-Occupations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05.AS04-BinaryTreeNodes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05.AS04-BinaryTreeNodes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05.AS05-NewCompanies.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05.AS05-NewCompanies.sql</FullPath>
+        </FileNode>
         <FileNode Name="08.AJ00-AdvancedJoin.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
@@ -234,6 +270,12 @@
           <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>main.sql</FullPath>
+        </FileNode>
+        <FileNode Name="setup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>setup.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
