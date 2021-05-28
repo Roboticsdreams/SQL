@@ -1,7 +1,7 @@
-:setvar sname ATH57293\SQLEXPRESS
+!! CD C:\Users\ & FOR /F %B IN ('DIR /B /A -HS /S setup.sql') DO ECHO :setvar filepath "%~dpB" > %TEMP%\relative_path.txt
 
-:setvar filepath C:\Users\prathinavel\Downloads\Workspace\SQL\HackerRank
+:r $(TEMP)\relative_path.txt
 
-!!sqlcmd -S $(sname) -i $(filepath)\01.HackerRankInstall.sql
-!!sqlcmd -S $(sname) -i $(filepath)\02.SetClrEnabled.sql
-!!sqlcmd -S $(sname) -i $(filepath)\03.tSQLt.class.sql
+:r $(filepath)\01.HackerRankInstall.sql
+:r $(filepath)\02.SetClrEnabled.sql
+:r $(filepath)\03.tSQLt.class.sql
