@@ -31,6 +31,35 @@
 :r $(filepath)\05.AS04-BinaryTreeNodes.sql
 :r $(filepath)\05.AS05-NewCompanies.sql
 
+:r $(filepath)\06.AG00-Aggregation.sql
+:r $(filepath)\06.AG01-TheCountFunction.sql
+:r $(filepath)\06.AG02-TheSumFunction.sql
+:r $(filepath)\06.AG03-Averages.sql
+:r $(filepath)\06.AG04-AveragePopulation.sql
+:r $(filepath)\06.AG05-JapanPopulation.sql
+:r $(filepath)\06.AG06-PopulationDensityDiff.sql
+:r $(filepath)\06.AG07-TheBlunder.sql
+:r $(filepath)\06.AG08-TopEarners.sql
+:r $(filepath)\06.AG09-WeatherObservationStation02.sql
+:r $(filepath)\06.AG10-WeatherObservationStation13.sql
+:r $(filepath)\06.AG11-WeatherObservationStation14.sql
+:r $(filepath)\06.AG12-WeatherObservationStation15.sql
+:r $(filepath)\06.AG13-WeatherObservationStation16.sql
+:r $(filepath)\06.AG14-WeatherObservationStation17.sql
+:r $(filepath)\06.AG15-WeatherObservationStation18.sql
+:r $(filepath)\06.AG16-WeatherObservationStation19.sql
+:r $(filepath)\06.AG17-WeatherObservationStation20.sql
+
+:r $(filepath)\07.BJ00-BasicJoin.sql
+:r $(filepath)\07.BJ01-AsianPopulation.sql
+:r $(filepath)\07.BJ02-AfricanCities.sql
+:r $(filepath)\07.BJ03-AvgPopulation.sql
+:r $(filepath)\07.BJ04-TheReport.sql
+:r $(filepath)\07.BJ05-TopCompetitors.sql
+:r $(filepath)\07.BJ06-OllivandersInventory.sql
+:r $(filepath)\07.BJ07-Challenges.sql
+:r $(filepath)\07.BJ08-ContestLeaderboard.sql
+
 :r $(filepath)\08.AJ00-AdvancedJoin.sql
 :r $(filepath)\08.AJ01-SQLProjectPlanning.sql
 :r $(filepath)\08.AJ02-Placements.sql

@@ -27,6 +27,8 @@
 - Open [main.sql](HackerRank/main.sql) and select All
 - Go to Query -> SQLCMD Mode then click Execute
 
+<sub><sup>*Note:* this will only work if your project folder is under C:/User if not you need to go and run .sql file one by one based on the order from 1 to 10.</sup></sub>
+
 ## Output
 ```
 +----------------------+
@@ -72,14 +74,6 @@
 Test Case Summary: 33 test case(s) executed, 33 succeeded, 0 failed, 0 errored.
 -------------------------------------------------------------------------------
 ```
-
-##Certificate
-<p align="center">  
-	<br>
-     <img height=100 src="https://www.hackerrank.com/certificates/d81f7a314c36"> 
-    <br>
-</p>
-
 
 ## Domains
 ### Basic Select Challenges
