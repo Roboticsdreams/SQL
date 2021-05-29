@@ -15,7 +15,7 @@
 
 ## Steps to download and execute this project
 
-- [Download](https://www.microsoft.com/en-in/sql-server/sql-server-downloads) and [Install] (https://www.sqlservertutorial.net/install-sql-server/) MS-SQL Server.
+- [Download](https://www.microsoft.com/en-in/sql-server/sql-server-downloads) and [Install](https://www.sqlservertutorial.net/install-sql-server/) MS-SQL Server.
 - Download the [SQL](https://github.com/Roboticsdreams/SQL/archive/refs/heads/master.zip) project.
 - Extract the zip file.
 - Open and Login SQL Server.
