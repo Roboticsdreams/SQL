@@ -3356,8 +3356,3 @@ INSERT INTO advancedselect.EMPLOYEE VALUES ('E567','M280','SM142','LM99','C99');
 COMMIT
 
 GO
-
-
-
-
-

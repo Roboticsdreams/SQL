@@ -199,6 +199,168 @@
           <AssociatedConnUserName />
           <FullPath>05.AS05-NewCompanies.sql</FullPath>
         </FileNode>
+        <FileNode Name="06.AG00-Aggregation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG00-Aggregation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG01-TheCountFunction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG01-TheCountFunction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG02-TheSumFunction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG02-TheSumFunction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG03-Averages.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG03-Averages.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG04-AveragePopulation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG04-AveragePopulation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG05-JapanPopulation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG05-JapanPopulation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG06-PopulationDensityDiff.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG06-PopulationDensityDiff.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG07-TheBlunder.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG07-TheBlunder.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG08-TopEarners.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG08-TopEarners.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG09-WeatherObservationStation02.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG09-WeatherObservationStation02.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG10-WeatherObservationStation13.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG10-WeatherObservationStation13.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG11-WeatherObservationStation14.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG11-WeatherObservationStation14.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG12-WeatherObservationStation15.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG12-WeatherObservationStation15.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG13-WeatherObservationStation16.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG13-WeatherObservationStation16.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG14-WeatherObservationStation17.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG14-WeatherObservationStation17.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG15-WeatherObservationStation18.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG15-WeatherObservationStation18.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG16-WeatherObservationStation19.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG16-WeatherObservationStation19.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.AG17-WeatherObservationStation20.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.AG17-WeatherObservationStation20.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07.BJ00-BasicJoin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07.BJ00-BasicJoin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07.BJ01-AsianPopulation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07.BJ01-AsianPopulation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07.BJ02-AfricanCities.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07.BJ02-AfricanCities.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07.BJ03-AvgPopulation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07.BJ03-AvgPopulation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07.BJ04-TheReport.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07.BJ04-TheReport.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07.BJ05-TopCompetitors.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07.BJ05-TopCompetitors.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07.BJ06-OllivandersInventory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07.BJ06-OllivandersInventory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07.BJ07-Challenges.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07.BJ07-Challenges.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07.BJ08-ContestLeaderboard.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07.BJ08-ContestLeaderboard.sql</FullPath>
+        </FileNode>
         <FileNode Name="08.AJ00-AdvancedJoin.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>

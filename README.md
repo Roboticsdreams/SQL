@@ -15,18 +15,17 @@
 
 ## Steps to download and execute this project
 
-- Download and Install [MS SQL Server](https://www.microsoft.com/en-in/sql-server/sql-server-downloads).
+- [Download](https://www.microsoft.com/en-in/sql-server/sql-server-downloads) and [Install] (https://www.sqlservertutorial.net/install-sql-server/) MS-SQL Server.
 - Download the [SQL](https://github.com/Roboticsdreams/SQL/archive/refs/heads/master.zip) project.
 - Extract the zip file.
 - Open and Login SQL Server.
-- Go to File -> Open -> Project/Solutions
-- Browse and Choose SQL.ssmssln and click Open
-- Choose DB as master
-- Open [setup.sql](HackerRank/setup.sql) and select All
-- Go to Query -> SQLCMD Mode then click Execute
-- Open [main.sql](HackerRank/main.sql) and select All
-- Go to Query -> SQLCMD Mode then click Execute
-
+- Go to File -> Open -> Project/Solutions.
+- Browse and Choose SQL.ssmssln and click Open.
+- Choose DB as master.
+- Open [setup.sql](HackerRank/setup.sql) and select All.
+- Go to Query -> SQLCMD Mode then click Execute.
+- Open [main.sql](HackerRank/main.sql) and select All.
+- Go to Query -> SQLCMD Mode then click Execute.
 <sub><sup>*Note:* this will only work if your project folder is under C:/User if not you need to go and run .sql file one by one based on the order from 1 to 10.</sup></sub>
 
 ## Output
@@ -35,43 +34,60 @@
 |Test Execution Summary|
 +----------------------+
  
-|No|Test Case Name                                      |Dur(ms)|Result |
-+--+----------------------------------------------------+-------+-------+
-|1 |[AdvancedJoinTestClass].[test_01sqlprojectplanning] |     17|Success|
-|2 |[AdvancedJoinTestClass].[test_02placements]         |     17|Success|
-|3 |[AdvancedJoinTestClass].[test_03symmetricpairs]     |     17|Success|
-|4 |[AdvancedJoinTestClass].[test_04interviews]         |     67|Success|
-|5 |[AdvancedJoinTestClass].[test_05learningsql]        |     60|Success|
-|6 |[AdvancedSelectTestClass].[test_01typeoftriangle]   |     17|Success|
-|7 |[AdvancedSelectTestClass].[test_02thepads]          |     13|Success|
-|8 |[AdvancedSelectTestClass].[test_03occupations]      |     17|Success|
-|9 |[AdvancedSelectTestClass].[test_04binarytreenodes]  |     20|Success|
-|10|[AdvancedSelectTestClass].[test_05newcompaines]     |    157|Success|
-|11|[AlternativeQueriesTestClass].[test_01drawtriangle1]|     17|Success|
-|12|[AlternativeQueriesTestClass].[test_02drawtriangle2]|     17|Success|
-|13|[AlternativeQueriesTestClass].[test_03printprime]   |    207|Success|
-|14|[BasicSelectTestClass].[test_01query1]              |     36|Success|
-|15|[BasicSelectTestClass].[test_02query2]              |     17|Success|
-|16|[BasicSelectTestClass].[test_03selectall]           |     47|Success|
-|17|[BasicSelectTestClass].[test_04selectbyid]          |     17|Success|
-|18|[BasicSelectTestClass].[test_05jpncity]             |     17|Success|
-|19|[BasicSelectTestClass].[test_06jpncityname]         |     14|Success|
-|20|[BasicSelectTestClass].[test_07wos01]               |    170|Success|
-|21|[BasicSelectTestClass].[test_08wos03]               |     80|Success|
-|22|[BasicSelectTestClass].[test_09wos04]               |      3|Success|
-|23|[BasicSelectTestClass].[test_10wos05]               |     27|Success|
-|24|[BasicSelectTestClass].[test_11wos06]               |     30|Success|
-|25|[BasicSelectTestClass].[test_12wos07]               |     67|Success|
-|26|[BasicSelectTestClass].[test_13wos08]               |     20|Success|
-|27|[BasicSelectTestClass].[test_14wos09]               |    133|Success|
-|28|[BasicSelectTestClass].[test_15wos10]               |    110|Success|
-|29|[BasicSelectTestClass].[test_16wos11]               |    143|Success|
-|30|[BasicSelectTestClass].[test_17wos12]               |    100|Success|
-|31|[BasicSelectTestClass].[test_18higherthan75]        |     13|Success|
-|32|[BasicSelectTestClass].[test_19employeenames]       |    120|Success|
-|33|[BasicSelectTestClass].[test_20employeesalaries]    |     20|Success|
+|No|Test Case Name                                       |Dur(ms)|Result |
++--+-----------------------------------------------------+-------+-------+
+|1 |[AdvancedJoinTestClass].[test_01sqlprojectplanning]  |     13|Success|
+|2 |[AdvancedJoinTestClass].[test_02placements]          |     17|Success|
+|3 |[AdvancedJoinTestClass].[test_03symmetricpairs]      |     17|Success|
+|4 |[AdvancedJoinTestClass].[test_04interviews]          |     77|Success|
+|5 |[AdvancedJoinTestClass].[test_05learningsql]         |     57|Success|
+|6 |[AdvancedSelectTestClass].[test_01typeoftriangle]    |     13|Success|
+|7 |[AdvancedSelectTestClass].[test_02thepads]           |     13|Success|
+|8 |[AdvancedSelectTestClass].[test_03occupations]       |     14|Success|
+|9 |[AdvancedSelectTestClass].[test_04binarytreenodes]   |     33|Success|
+|10|[AdvancedSelectTestClass].[test_05newcompaines]      |    153|Success|
+|11|[AggregationTestClass].[test_01thecountfunction]     |      0|Success|
+|12|[AggregationTestClass].[test_02thesumfunction]       |      0|Success|
+|13|[AggregationTestClass].[test_03averages]             |      3|Success|
+|14|[AggregationTestClass].[test_04averagepopulation]    |      0|Success|
+|15|[AggregationTestClass].[test_05japanpopulation]      |      0|Success|
+|16|[AggregationTestClass].[test_06populationdensitydiff]|      4|Success|
+|17|[AggregationTestClass].[test_07theblunder]           |      0|Success|
+|18|[AggregationTestClass].[test_08topearners]           |     10|Success|
+|19|[AggregationTestClass].[test_09wos02]                |     14|Success|
+|20|[AggregationTestClass].[test_10wos13]                |      3|Success|
+|21|[AggregationTestClass].[test_11wos14]                |      3|Success|
+|22|[AggregationTestClass].[test_12wos15]                |      4|Success|
+|23|[AggregationTestClass].[test_13wos16]                |      0|Success|
+|24|[AggregationTestClass].[test_14wos17]                |      0|Success|
+|25|[AggregationTestClass].[test_15wos18]                |      4|Success|
+|26|[AggregationTestClass].[test_16wos19]                |      3|Success|
+|27|[AggregationTestClass].[test_17wos20]                |      3|Success|
+|28|[AlternativeQueriesTestClass].[test_01drawtriangle1] |     17|Success|
+|29|[AlternativeQueriesTestClass].[test_02drawtriangle2] |     17|Success|
+|30|[AlternativeQueriesTestClass].[test_03printprime]    |    210|Success|
+|31|[BasicSelectTestClass].[test_01query1]               |     17|Success|
+|32|[BasicSelectTestClass].[test_02query2]               |     10|Success|
+|33|[BasicSelectTestClass].[test_03selectall]            |     50|Success|
+|34|[BasicSelectTestClass].[test_04selectbyid]           |     13|Success|
+|35|[BasicSelectTestClass].[test_05jpncity]              |     16|Success|
+|36|[BasicSelectTestClass].[test_06jpncityname]          |     10|Success|
+|37|[BasicSelectTestClass].[test_07wos01]                |    167|Success|
+|38|[BasicSelectTestClass].[test_08wos03]                |     83|Success|
+|39|[BasicSelectTestClass].[test_09wos04]                |      3|Success|
+|40|[BasicSelectTestClass].[test_10wos05]                |     14|Success|
+|41|[BasicSelectTestClass].[test_11wos06]                |     37|Success|
+|42|[BasicSelectTestClass].[test_12wos07]                |     56|Success|
+|43|[BasicSelectTestClass].[test_13wos08]                |     20|Success|
+|44|[BasicSelectTestClass].[test_14wos09]                |    123|Success|
+|45|[BasicSelectTestClass].[test_15wos10]                |    103|Success|
+|46|[BasicSelectTestClass].[test_16wos11]                |    133|Success|
+|47|[BasicSelectTestClass].[test_17wos12]                |     97|Success|
+|48|[BasicSelectTestClass].[test_18higherthan75]         |     14|Success|
+|49|[BasicSelectTestClass].[test_19employeenames]        |     37|Success|
+|50|[BasicSelectTestClass].[test_20employeesalaries]     |     20|Success|
 -------------------------------------------------------------------------------
-Test Case Summary: 33 test case(s) executed, 33 succeeded, 0 failed, 0 errored.
+Test Case Summary: 50 test case(s) executed, 50 succeeded, 0 failed, 0 errored.
 -------------------------------------------------------------------------------
 ```
 
