@@ -313,11 +313,11 @@
           <AssociatedConnUserName />
           <FullPath>07.BJ00-BasicJoin.sql</FullPath>
         </FileNode>
-        <FileNode Name="07.BJ01-AsianPopulation.sql">
+        <FileNode Name="07.BJ01-PopulationCensus.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ATH57293\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>07.BJ01-AsianPopulation.sql</FullPath>
+          <FullPath>07.BJ01-PopulationCensus.sql</FullPath>
         </FileNode>
         <FileNode Name="07.BJ02-AfricanCities.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ATH57293\SQLEXPRESS:True</AssociatedConnectionMoniker>

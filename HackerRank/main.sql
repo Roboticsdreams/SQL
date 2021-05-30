@@ -51,7 +51,7 @@
 :r $(filepath)\06.AG17-WeatherObservationStation20.sql
 
 :r $(filepath)\07.BJ00-BasicJoin.sql
-:r $(filepath)\07.BJ01-AsianPopulation.sql
+:r $(filepath)\07.BJ01-PopulationCensus.sql
 :r $(filepath)\07.BJ02-AfricanCities.sql
 :r $(filepath)\07.BJ03-AvgPopulation.sql
 :r $(filepath)\07.BJ04-TheReport.sql

@@ -36,58 +36,66 @@
  
 |No|Test Case Name                                       |Dur(ms)|Result |
 +--+-----------------------------------------------------+-------+-------+
-|1 |[AdvancedJoinTestClass].[test_01sqlprojectplanning]  |     13|Success|
-|2 |[AdvancedJoinTestClass].[test_02placements]          |     17|Success|
-|3 |[AdvancedJoinTestClass].[test_03symmetricpairs]      |     17|Success|
-|4 |[AdvancedJoinTestClass].[test_04interviews]          |     77|Success|
-|5 |[AdvancedJoinTestClass].[test_05learningsql]         |     57|Success|
-|6 |[AdvancedSelectTestClass].[test_01typeoftriangle]    |     13|Success|
-|7 |[AdvancedSelectTestClass].[test_02thepads]           |     13|Success|
-|8 |[AdvancedSelectTestClass].[test_03occupations]       |     14|Success|
-|9 |[AdvancedSelectTestClass].[test_04binarytreenodes]   |     33|Success|
-|10|[AdvancedSelectTestClass].[test_05newcompaines]      |    153|Success|
-|11|[AggregationTestClass].[test_01thecountfunction]     |      0|Success|
-|12|[AggregationTestClass].[test_02thesumfunction]       |      0|Success|
+|1 |[AdvancedJoinTestClass].[test_01sqlprojectplanning]  |     63|Success|
+|2 |[AdvancedJoinTestClass].[test_02placements]          |     77|Success|
+|3 |[AdvancedJoinTestClass].[test_03symmetricpairs]      |     70|Success|
+|4 |[AdvancedJoinTestClass].[test_04interviews]          |    293|Success|
+|5 |[AdvancedJoinTestClass].[test_05learningsql]         |    260|Success|
+|6 |[AdvancedSelectTestClass].[test_01typeoftriangle]    |     70|Success|
+|7 |[AdvancedSelectTestClass].[test_02thepads]           |     56|Success|
+|8 |[AdvancedSelectTestClass].[test_03occupations]       |     77|Success|
+|9 |[AdvancedSelectTestClass].[test_04binarytreenodes]   |     70|Success|
+|10|[AdvancedSelectTestClass].[test_05newcompaines]      |    563|Success|
+|11|[AggregationTestClass].[test_01thecountfunction]     |      6|Success|
+|12|[AggregationTestClass].[test_02thesumfunction]       |      6|Success|
 |13|[AggregationTestClass].[test_03averages]             |      3|Success|
 |14|[AggregationTestClass].[test_04averagepopulation]    |      0|Success|
-|15|[AggregationTestClass].[test_05japanpopulation]      |      0|Success|
-|16|[AggregationTestClass].[test_06populationdensitydiff]|      4|Success|
-|17|[AggregationTestClass].[test_07theblunder]           |      0|Success|
-|18|[AggregationTestClass].[test_08topearners]           |     10|Success|
-|19|[AggregationTestClass].[test_09wos02]                |     14|Success|
-|20|[AggregationTestClass].[test_10wos13]                |      3|Success|
-|21|[AggregationTestClass].[test_11wos14]                |      3|Success|
-|22|[AggregationTestClass].[test_12wos15]                |      4|Success|
-|23|[AggregationTestClass].[test_13wos16]                |      0|Success|
-|24|[AggregationTestClass].[test_14wos17]                |      0|Success|
-|25|[AggregationTestClass].[test_15wos18]                |      4|Success|
-|26|[AggregationTestClass].[test_16wos19]                |      3|Success|
-|27|[AggregationTestClass].[test_17wos20]                |      3|Success|
-|28|[AlternativeQueriesTestClass].[test_01drawtriangle1] |     17|Success|
-|29|[AlternativeQueriesTestClass].[test_02drawtriangle2] |     17|Success|
-|30|[AlternativeQueriesTestClass].[test_03printprime]    |    210|Success|
-|31|[BasicSelectTestClass].[test_01query1]               |     17|Success|
-|32|[BasicSelectTestClass].[test_02query2]               |     10|Success|
-|33|[BasicSelectTestClass].[test_03selectall]            |     50|Success|
-|34|[BasicSelectTestClass].[test_04selectbyid]           |     13|Success|
-|35|[BasicSelectTestClass].[test_05jpncity]              |     16|Success|
-|36|[BasicSelectTestClass].[test_06jpncityname]          |     10|Success|
-|37|[BasicSelectTestClass].[test_07wos01]                |    167|Success|
-|38|[BasicSelectTestClass].[test_08wos03]                |     83|Success|
-|39|[BasicSelectTestClass].[test_09wos04]                |      3|Success|
-|40|[BasicSelectTestClass].[test_10wos05]                |     14|Success|
-|41|[BasicSelectTestClass].[test_11wos06]                |     37|Success|
-|42|[BasicSelectTestClass].[test_12wos07]                |     56|Success|
-|43|[BasicSelectTestClass].[test_13wos08]                |     20|Success|
-|44|[BasicSelectTestClass].[test_14wos09]                |    123|Success|
-|45|[BasicSelectTestClass].[test_15wos10]                |    103|Success|
-|46|[BasicSelectTestClass].[test_16wos11]                |    133|Success|
-|47|[BasicSelectTestClass].[test_17wos12]                |     97|Success|
-|48|[BasicSelectTestClass].[test_18higherthan75]         |     14|Success|
-|49|[BasicSelectTestClass].[test_19employeenames]        |     37|Success|
-|50|[BasicSelectTestClass].[test_20employeesalaries]     |     20|Success|
+|15|[AggregationTestClass].[test_05japanpopulation]      |      3|Success|
+|16|[AggregationTestClass].[test_06populationdensitydiff]|      6|Success|
+|17|[AggregationTestClass].[test_07theblunder]           |      3|Success|
+|18|[AggregationTestClass].[test_08topearners]           |     44|Success|
+|19|[AggregationTestClass].[test_09wos02]                |     40|Success|
+|20|[AggregationTestClass].[test_10wos13]                |      7|Success|
+|21|[AggregationTestClass].[test_11wos14]                |      4|Success|
+|22|[AggregationTestClass].[test_12wos15]                |      7|Success|
+|23|[AggregationTestClass].[test_13wos16]                |      7|Success|
+|24|[AggregationTestClass].[test_14wos17]                |      7|Success|
+|25|[AggregationTestClass].[test_15wos18]                |     10|Success|
+|26|[AggregationTestClass].[test_16wos19]                |     10|Success|
+|27|[AggregationTestClass].[test_17wos20]                |      6|Success|
+|28|[AlternativeQueriesTestClass].[test_01drawtriangle1] |     87|Success|
+|29|[AlternativeQueriesTestClass].[test_02drawtriangle2] |     87|Success|
+|30|[AlternativeQueriesTestClass].[test_03printprime]    |    950|Success|
+|31|[BasicJoinTestClass].[test_01populationcensus]       |     16|Success|
+|32|[BasicJoinTestClass].[test_02africancities]          |     40|Success|
+|33|[BasicJoinTestClass].[test_03avgpopulation]          |     40|Success|
+|34|[BasicJoinTestClass].[test_04thereport]              |     70|Success|
+|35|[BasicJoinTestClass].[test_05topcompetitors]         |    160|Success|
+|36|[BasicJoinTestClass].[test_06ollivadersinventory]    |    950|Success|
+|37|[BasicJoinTestClass].[test_07challenges]             |    113|Success|
+|38|[BasicJoinTestClass].[test_08contestleaderboard]     |    317|Success|
+|39|[BasicSelectTestClass].[test_01query1]               |    120|Success|
+|40|[BasicSelectTestClass].[test_02query2]               |     43|Success|
+|41|[BasicSelectTestClass].[test_03selectall]            |    157|Success|
+|42|[BasicSelectTestClass].[test_04selectbyid]           |     50|Success|
+|43|[BasicSelectTestClass].[test_05jpncity]              |     53|Success|
+|44|[BasicSelectTestClass].[test_06jpncityname]          |     33|Success|
+|45|[BasicSelectTestClass].[test_07wos01]                |    580|Success|
+|46|[BasicSelectTestClass].[test_08wos03]                |    310|Success|
+|47|[BasicSelectTestClass].[test_09wos04]                |      7|Success|
+|48|[BasicSelectTestClass].[test_10wos05]                |     47|Success|
+|49|[BasicSelectTestClass].[test_11wos06]                |    110|Success|
+|50|[BasicSelectTestClass].[test_12wos07]                |    226|Success|
+|51|[BasicSelectTestClass].[test_13wos08]                |     84|Success|
+|52|[BasicSelectTestClass].[test_14wos09]                |    496|Success|
+|53|[BasicSelectTestClass].[test_15wos10]                |    436|Success|
+|54|[BasicSelectTestClass].[test_16wos11]                |    650|Success|
+|55|[BasicSelectTestClass].[test_17wos12]                |    387|Success|
+|56|[BasicSelectTestClass].[test_18higherthan75]         |     50|Success|
+|57|[BasicSelectTestClass].[test_19employeenames]        |    186|Success|
+|58|[BasicSelectTestClass].[test_20employeesalaries]     |     84|Success|
 -------------------------------------------------------------------------------
-Test Case Summary: 50 test case(s) executed, 50 succeeded, 0 failed, 0 errored.
+Test Case Summary: 58 test case(s) executed, 58 succeeded, 0 failed, 0 errored.
 -------------------------------------------------------------------------------
 ```
 
@@ -152,7 +160,7 @@ Test Case Summary: 50 test case(s) executed, 50 succeeded, 0 failed, 0 errored.
 ### Basic Join Challenges
 | Number | Challenges | Solutions | 
 | ------------- | ------------- | -------------|
-| 1 | [Asian Population](https://www.hackerrank.com/challenges/asian-population/problem) | [SQL](HackerRank/07.BJ01-AsianPopulation.sql)  |
+| 1 | [Asian Population](https://www.hackerrank.com/challenges/asian-population/problem) | [SQL](HackerRank/07.BJ01-PopulationCensus.sql)  |
 | 2 | [African Cities](https://www.hackerrank.com/challenges/african-cities/problem) | [SQL](HackerRank/07.BJ02-AfricanCities.sql)  |
 | 3 | [Average Population of Each Continent](https://www.hackerrank.com/challenges/average-population-of-each-continent/problem) | [SQL](HackerRank/07.BJ03-AvgPopulation.sql)  |
 | 4 | [The Report](https://www.hackerrank.com/challenges/the-report/problem) | [SQL](HackerRank/07.BJ04-TheReport.sql)  |
