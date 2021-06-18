@@ -10,7 +10,7 @@ exec tSQLt.newTestclass 'BasicSelectTestClass'
 
 GO
 
-raiserror('Now at the Creating table section ....',0,1)
+raiserror('Now at the basicselect schema section ....',0,1)
 
 GO
 
@@ -18,7 +18,10 @@ DROP TABLE IF EXISTS basicselect.CITY;
 
 GO
 
-/* Create a table called CITY */
+raiserror('Now at the basicselect.CITY table creation ....',0,1)
+
+GO
+
 CREATE TABLE basicselect.CITY
 (
    ID         	  int        		NOT NULL,
@@ -30,13 +33,12 @@ CREATE TABLE basicselect.CITY
 
 GO
 
-raiserror('Now at the insert table section ....',0,1)
+raiserror('Now at the basicselect.CITY table insertion ....',0,1)
 
 GO
 
 BEGIN TRANSACTION
 
-/* Create few records in this table */
 INSERT INTO basicselect.CITY VALUES(6,'Rotterdam','NLD','Zuid-Holland',593321);
 INSERT INTO basicselect.CITY VALUES(19,'Zaanstad','NLD','Noord-Holland',135621); 
 INSERT INTO basicselect.CITY VALUES(214,'Porto Alegre','BRA','Rio Grande do Sul',1314032); 
@@ -129,7 +131,6 @@ DROP TABLE IF EXISTS basicselect.CITY2;
 
 GO
 
-/* Create a table called CITY */
 CREATE TABLE basicselect.CITY2
 (
    ID         	  int        		NOT NULL,
